@@ -1,9 +1,8 @@
 ## React, React-Native란? 
 
-> **React**는 **Facebook**의 **오픈 소스 라이브러리**로 웹 프론트 개발을 편리하게 하기 위해 만들어졌습니다.
-> 그리고 **React Native**는 리액트의 접근 방법을 모바일로 확장한 오픈소스 프로젝트입니다! 
-> 즉, React의 규칙을 이용하여 모바일 어플리케이션 개발을 할 수 있습니다.
-<br>
+> **React**는 **Facebook**의 **오픈 소스 라이브러리**로 웹 프론트 개발을 편리하게 하기 위해 만들어졌습니다.<br>
+> 그리고 **React Native**는 리액트의 접근 방법을 모바일로 확장한 오픈소스 프로젝트입니다! <br>
+> 즉, React의 규칙을 이용하여 모바일 어플리케이션 개발을 할 수 있습니다.<br>
 <br>
 
 ## 왜? React-Native를 사용하는가?
@@ -15,9 +14,9 @@ Android : java, Kotlin
 iOS     : Objective-C, Swift
 ~~~
 
-> 하지만 빠르게 앱을 만들어 시장 반응을 보려 하는 스타트업과 같은 곳에서는 두 가지를 동시에 개발하기에는 인력과 시간 소모가 큽니다. 
-> 그래서 동시에 개발할 수 있는 **하이브리드** 앱이 나오게 되었는데 (대표적인 예로: ionic)
-> 하이브리드는 웹뷰를 네이티브에 씌우는 형태이기에 속도가 느리고 큰 규모의 프로젝트에는 적합하지 않습니다.
+> 하지만 빠르게 앱을 만들어 시장 반응을 보려 하는 스타트업과 같은 곳에서는 두 가지를 동시에 개발하기에는 인력과 시간 소모가 큽니다. <br>
+> 그래서 동시에 개발할 수 있는 **하이브리드** 앱이 나오게 되었는데 (대표적인 예로: ionic)<br>
+> 하이브리드는 웹뷰를 네이티브에 씌우는 형태이기에 속도가 느리고 큰 규모의 프로젝트에는 적합하지 않습니다.<br>
 
 ### 그래서 React-Native가 나오게 되었습니다.
 
@@ -26,8 +25,7 @@ iOS     : Objective-C, Swift
 > React Native는 하이브리드 앱, 즉 아이오닉과 같은 웹뷰에 포팅된 형태의 어플리케이션이 아닙니다.
 > **javascript**로 코딩한 **React Component**는 **React Native** 플랫폼을 거쳐 Android iOS Native 코드로 각각 변환됩니다.
 > 즉, javascript 언어만으로도 앱 제작이 가능합니다.
-
-
+<br>
 
 ## React-Native 장점
 
@@ -331,7 +329,7 @@ npm run android
 > 라이브러리를 적용 시키는데 있어서는 Native 프로젝트와 React-Native 프로젝트는 동일하게 라이브러리를 적용 시키면 됩니다.
 > 그렇다면 차이점은 Native 모듈을 구성하는데 있습니다.
 
-![library](/Users/leby/Desktop/React-Native/resources/library.png)
+![library](https://github.com/yongil-kim/react-native/blob/main/resources/library-flow.png)
 
 >**Native** 프로젝트 같은 경우 Android, iOS **Native Project 각각의 카메라 모듈**을 구성하였는데, 
 >**React-Native** 프로젝트는 **RNCamera** 모듈을 React-Native에서 호출하여 Android, iOS 공통 카메라 모듈을 사용합니다.
