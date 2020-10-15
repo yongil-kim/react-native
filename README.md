@@ -3,11 +3,12 @@
 > **React**는 **Facebook**의 **오픈 소스 라이브러리**로 웹 프론트 개발을 편리하게 하기 위해 만들어졌습니다.<br>
 > 그리고 **React Native**는 리액트의 접근 방법을 모바일로 확장한 오픈소스 프로젝트입니다! <br>
 > 즉, React의 규칙을 이용하여 모바일 어플리케이션 개발을 할 수 있습니다.<br>
+
 <br>
 
 ## 왜? React-Native를 사용하는가?
 
-> 일반적으로 '**앱**' 개발하기 위해서는 각 플랫폼에 맞는 언어로 개발을 해야합니다. 
+> 일반적으로 '**앱**' 개발하기 위해서는 각 플랫폼에 맞는 언어로 개발을 해야합니다. <br>
 
 ~~~bash
 Android : java, Kotlin
@@ -22,9 +23,10 @@ iOS     : Objective-C, Swift
 
 ![bridge](https://github.com/yongil-kim/react-native/blob/main/resources/react-native-flow.png)
 
-> React Native는 하이브리드 앱, 즉 아이오닉과 같은 웹뷰에 포팅된 형태의 어플리케이션이 아닙니다.
-> **javascript**로 코딩한 **React Component**는 **React Native** 플랫폼을 거쳐 Android iOS Native 코드로 각각 변환됩니다.
-> 즉, javascript 언어만으로도 앱 제작이 가능합니다.
+> React Native는 하이브리드 앱, 즉 아이오닉과 같은 웹뷰에 포팅된 형태의 어플리케이션이 아닙니다.<br>
+> **javascript**로 코딩한 **React Component**는 **React Native** 플랫폼을 거쳐 Android iOS Native 코드로 각각 변환됩니다.<br>
+> 즉, javascript 언어만으로도 앱 제작이 가능합니다.<br>
+
 <br>
 
 ## React-Native 장점
@@ -35,8 +37,8 @@ iOS     : Objective-C, Swift
 
 2️⃣ **개발 속도가 빠르다.**
 
-> 생산성이 높은 편이며, 개발하면서 바로 결과를 확인 할 수 있게 Live Reloading을 제공해줍니다.
-> Android, iOS는 코드를 변경할 때마다 빌드를 새로 하여 앱을 재기동 시키는 React-Native는 그러지 않아도 됩니다.
+> 생산성이 높은 편이며, 개발하면서 바로 결과를 확인 할 수 있게 Live Reloading을 제공해줍니다.<br>
+> Android, iOS는 코드를 변경할 때마다 빌드를 새로 하여 앱을 재기동 시키는 React-Native는 그러지 않아도 됩니다.<br>
 
 **3️⃣ 속도가 빠르다. (상대적)**
 
@@ -46,7 +48,7 @@ iOS     : Objective-C, Swift
 
 > 높은 퍼포먼스와 생산성으로 인해 개발자들의 질의응답이 매우 활발한 편입니다.
 
-
+<br>
 
 ## React-Native 단점
 
@@ -56,10 +58,10 @@ iOS     : Objective-C, Swift
 
 **2️⃣ 성능 이슈**
 
-> 크로스 플랫폼 앱의 특징처럼, 완벽하게 Native를 대체할 수는 없습니다.
-> 비지니스 로직이 많이 복잡하거나 뷰 스택이 많이 쌓이게 된다면 속도는 느려집니다.
+> 크로스 플랫폼 앱의 특징처럼, 완벽하게 Native를 대체할 수는 없습니다.<br>
+> 비지니스 로직이 많이 복잡하거나 뷰 스택이 많이 쌓이게 된다면 속도는 느려집니다.<br>
 
-
+<br>
 
 ## React-Native 개발 환경 구성
 
@@ -67,28 +69,28 @@ iOS     : Objective-C, Swift
 
 > OS는 **Windows, MacOS** 상관 없이 개발 환경을 구성이 가능합니다. 
 
-- Windows : Android만 개발이 가능합니다.
-- **MacOS**    : Android, iOS 모두 개발이 가능합니다.  ✅
+- **Windows** : Android만 개발이 가능합니다.
+- **MacOS**    : Android, iOS 모두 개발이 가능합니다. 
 
-
+<br>
 
 **2️⃣ 리액트 네이티브 개발 방법**
 
-1. **Expo CLI**
+#### 1. Expo CLI
 
-> **장점** : 앱을 개발할 때 자주 사용되는 네이티브 기능(위치 정보, 카메라 등)을 패키지로 묶어서 제공하기에 초기 구성이 편리합니다.
-> **단점** : 사용하지 않은 네이티브 모듈로 인해 앱 파일 사이즈가 커지는 문제 Expo에서 제공하지 않은 네이티브 모듈을 추가할 때, 불편함 등이 있어 추천하지 않습니다.
+> **장점** : 앱을 개발할 때 자주 사용되는 네이티브 기능(위치 정보, 카메라 등)을 패키지로 묶어서 제공하기에 초기 구성이 편리합니다.<br>
+> **단점** : 사용하지 않은 네이티브 모듈로 인해 앱 파일 사이즈가 커지는 문제 Expo에서 제공하지 않은 네이티브 모듈을 추가할 때, 불편함 등이 있어 추천하지 않습니다.<br>
 
-2. **React Native CLI**  ✅
+#### **2. React Native CLI**  ✅
 
->**장점** : Third-party 모듈을 추가하기 편리하고, 제공하지 않는 네이티브 모듈이 있는 경우 Native 파일에 접근하여 직접 개발할 수 있다.
->**단점** : 초기 구성이 오래 걸리고, 배포가 불편하다.
+>**장점** : Third-party 모듈을 추가하기 편리하고, 제공하지 않는 네이티브 모듈이 있는 경우 Native 파일에 접근하여 직접 개발할 수 있다.<br>
+>**단점** : 초기 구성이 오래 걸리고, 배포가 불편하다.<br>
 
-
+<br>
 
 3️⃣ **개발 환경 구축**
 
-1. **Homebrew 설치**
+#### **1. Homebrew 설치**
 
 > **설치**
 
@@ -106,9 +108,9 @@ Homebrew/homebrew-core (git revision 21fbd; last commit 2020-10-06)
 Homebrew/homebrew-cask (git revision ff3c2d; last commit 2020-10-06)
 ~~~
 
+<br>
 
-
-2. **Nodejs 설치**
+#### **2. Nodejs 설치**
 
 > **Nodejs 설치**
 
@@ -134,14 +136,14 @@ npm --version
 6.14.4
 ~~~
 
+<br>
 
-
-3. **Watchman 설치**
+#### **3. Watchman 설치**
 
 > **설치**
 >
-> Watchman은 특정 폴더나 파일을 감시하다가 변화가 생기면, 특정 동작을 실행하도록 설정하는 역할을 합니다. 
-> React-Native에서는 소스코드의 추가, 변경이 발생하면 다시 빌드하기 위해 Watchman을 사용하고 있습니다.
+> Watchman은 특정 폴더나 파일을 감시하다가 변화가 생기면, 특정 동작을 실행하도록 설정하는 역할을 합니다. <br>
+> React-Native에서는 소스코드의 추가, 변경이 발생하면 다시 빌드하기 위해 Watchman을 사용하고 있습니다.<br>
 
 ~~~bash
 sudo brew install watchman
@@ -155,9 +157,9 @@ watchman --version
 4.9.0
 ~~~
 
+<br>
 
-
-4. **React-Native CLI 설치**
+#### **4. React-Native CLI 설치**
 
 > **설치**
 
@@ -174,9 +176,9 @@ react-native-cli: 2.0.1
 react-native: n/a - not inside a React Native project directory
 ~~~
 
+<br>
 
-
-5. **XCode 설치**
+#### **5. XCode 설치**
 
 > **설치**
 
@@ -190,9 +192,9 @@ App Store > XCode 검색 > 다운로드 & 설치
 XCode 실행 > 메뉴 > Preferences > Locations > Command Line Tools > XCode 12.0.1
 ~~~
 
+<br>
 
-
-6.  **CocoaPods 설치**
+#### **6. CocoaPods 설치**
 
 > **설치**
 >
@@ -210,9 +212,9 @@ pod --version
 1.9.3
 ~~~
 
+<br>
 
-
-7. **jdk 설치**
+#### **7. jdk 설치**
 
 > **설치**
 >
@@ -233,9 +235,9 @@ OpenJDK Runtime Environment (AdoptOpenJDK)(build 1.8.0_265-b01)
 OpenJDK 64-Bit Server VM (AdoptOpenJDK)(build 25.265-b01, mixed mode)
 ~~~
 
+<br>
 
-
-8. **안드로이드 스튜디오 설치**
+#### **8. 안드로이드 스튜디오 설치**
 
 > **다운로드**
 
@@ -284,15 +286,13 @@ Version 30.0.1-6435776
 Installed as /Users/leby/Library/Android/sdk/platform-tools/adb
 ~~~
 
-
-
-
+<br>
 
 ## React-Native 기본 프로젝트 생성 및 확인
 
 > **현재 개발 버전 고정**
-> React-Native는 버전에 따라, 잘 동작하던 앱이 동작을 안하거나, 빌드할 때 에러가 발생하는 등 여러 문제들을 일으킬 가능성이 높습니다. 
-> 그러므로 React-Native로 앱을 개발할 때는 아래에 npm 명령어를 통해 버전을 고정시켜 사용하는 것을 권장합니다
+> React-Native는 버전에 따라, 잘 동작하던 앱이 동작을 안하거나, 빌드할 때 에러가 발생하는 등 여러 문제들을 일으킬 가능성이 높습니다. <br>
+> 그러므로 React-Native로 앱을 개발할 때는 아래에 npm 명령어를 통해 버전을 고정시켜 사용하는 것을 권장합니다<br>
 
 ~~~bash
 npm config set save-exact=true
@@ -321,25 +321,25 @@ cd SampleApp
 npm run android
 ~~~
 
-
+<br>
 
 ## React-Native 프로젝트 Native 라이브러리 포팅
 
 > **Native 프로젝트 React-Native 프로젝트 라이브러리 비교 구성도**
-> 라이브러리를 적용 시키는데 있어서는 Native 프로젝트와 React-Native 프로젝트는 동일하게 라이브러리를 적용 시키면 됩니다.
-> 그렇다면 차이점은 Native 모듈을 구성하는데 있습니다.
+> 라이브러리를 적용 시키는데 있어서는 Native 프로젝트와 React-Native 프로젝트는 동일하게 라이브러리를 적용 시키면 됩니다.<br>
+> 그렇다면 차이점은 Native 모듈을 구성하는데 있습니다.<br>
 
 ![library](https://github.com/yongil-kim/react-native/blob/main/resources/library-flow.png)
 
->**Native** 프로젝트 같은 경우 Android, iOS **Native Project 각각의 카메라 모듈**을 구성하였는데, 
->**React-Native** 프로젝트는 **RNCamera** 모듈을 React-Native에서 호출하여 Android, iOS 공통 카메라 모듈을 사용합니다.
+>**Native** 프로젝트 같은 경우 Android, iOS **Native Project 각각의 카메라 모듈**을 구성하였는데, <br>
+>**React-Native** 프로젝트는 **RNCamera** 모듈을 React-Native에서 호출하여 Android, iOS 공통 카메라 모듈을 사용합니다.<br>
 
-⚠️  하지만, 공통으로 카메라 모듈을 사용하다 보면 지원하지 않는 기능들이 있을 수 있습니다.
-       예를 들어 실시간으로 카메라 프레임 가져오는 기능과 RN 모듈에서 제공하지 않는 기능들은 Native 별로 기능을 구현할 수 밖에 없습니다.
+⚠️  하지만, 공통으로 카메라 모듈을 사용하다 보면 지원하지 않는 기능들이 있을 수 있습니다.<br>
+       예를 들어 실시간으로 카메라 프레임 가져오는 기능과 RN 모듈에서 제공하지 않는 기능들은 Native 별로 기능을 구현할 수 밖에 없습니다.<br>
 
-
+<br>
 
 ## React-Native Bridge 기능
 
-> 브릿지 기능은 자바스크립트에서 android 또는 ios Native 엔진으로 메세지를 보내는 기능입니다.
-> 즉, 연결해주는 브릿지 역할을 한다고 볼 수 있으며, 자바스크립트와 스마트폰의 커뮤니케이션을 월할하게 할 수 있도록 만들어졌습니다.
+> 브릿지 기능은 자바스크립트에서 android 또는 ios Native 엔진으로 메세지를 보내는 기능입니다.<br>
+> 즉, 연결해주는 브릿지 역할을 한다고 볼 수 있으며, 자바스크립트와 스마트폰의 커뮤니케이션을 월할하게 할 수 있도록 만들어졌습니다.<br>
