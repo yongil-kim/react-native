@@ -126,9 +126,9 @@ node --version
 v12.17.0
 ~~~
 
-> **npm 버전 확인**  
+> **npm 버전 확인**  <br>
 >
-> Nodejs를 설치하면, 기본적으로 Nodejs 패키지 매니저인 npm(Node Package Manager)도 같이 설치됩니다.
+> Nodejs를 설치하면, 기본적으로 Nodejs 패키지 매니저인 npm(Node Package Manager)도 같이 설치됩니다.<br>
 
 ~~~bash
 npm --version
@@ -140,7 +140,7 @@ npm --version
 
 #### **3. Watchman 설치**
 
-> **설치**
+> **설치**<br>
 >
 > Watchman은 특정 폴더나 파일을 감시하다가 변화가 생기면, 특정 동작을 실행하도록 설정하는 역할을 합니다. <br>
 > React-Native에서는 소스코드의 추가, 변경이 발생하면 다시 빌드하기 위해 Watchman을 사용하고 있습니다.<br>
@@ -196,9 +196,9 @@ XCode 실행 > 메뉴 > Preferences > Locations > Command Line Tools > XCode 12.
 
 #### **6. CocoaPods 설치**
 
-> **설치**
+> **설치**<br>
 >
-> React-Native로 iOS 앱을 개발하려면 꼭 필요하므로 아래에 명령어를 사용하여 Cocoapods를 설치합니다.
+> React-Native로 iOS 앱을 개발하려면 꼭 필요하므로 아래에 명령어를 사용하여 Cocoapods를 설치합니다.<br>
 
 ~~~bash
 sudo gem install cocoapods
@@ -216,9 +216,9 @@ pod --version
 
 #### **7. jdk 설치**
 
-> **설치**
+> **설치**<br>
 >
-> java 버전을 확인 했을 때 1.8 이상의 버전이 나온다면 설치하지 않으셔도 됩니다.
+> java 버전을 확인 했을 때 1.8 이상의 버전이 나온다면 설치하지 않으셔도 됩니다.<br>
 
 ~~~bash
 sudo brew tap AdoptOpenJDK/openjdk
@@ -290,7 +290,7 @@ Installed as /Users/leby/Library/Android/sdk/platform-tools/adb
 
 ## React-Native 기본 프로젝트 생성 및 확인
 
-> **현재 개발 버전 고정**
+> **현재 개발 버전 고정**<br>
 > React-Native는 버전에 따라, 잘 동작하던 앱이 동작을 안하거나, 빌드할 때 에러가 발생하는 등 여러 문제들을 일으킬 가능성이 높습니다. <br>
 > 그러므로 React-Native로 앱을 개발할 때는 아래에 npm 명령어를 통해 버전을 고정시켜 사용하는 것을 권장합니다<br>
 
@@ -298,8 +298,8 @@ Installed as /Users/leby/Library/Android/sdk/platform-tools/adb
 npm config set save-exact=true
 ~~~
 
-> **프로젝트 생성**
-> React Native CLI를 이용하여 쉽게 프로젝트를 생성 할 수 있습니다.
+> **프로젝트 생성**<br>
+> React Native CLI를 이용하여 쉽게 프로젝트를 생성 할 수 있습니다.<br>
 
 ~~~bash
 react-native init SampleApp
@@ -325,7 +325,7 @@ npm run android
 
 ## React-Native 프로젝트 Native 라이브러리 포팅
 
-> **Native 프로젝트 React-Native 프로젝트 라이브러리 비교 구성도**
+> **Native 프로젝트 React-Native 프로젝트 라이브러리 비교 구성도**<br>
 > 라이브러리를 적용 시키는데 있어서는 Native 프로젝트와 React-Native 프로젝트는 동일하게 라이브러리를 적용 시키면 됩니다.<br>
 > 그렇다면 차이점은 Native 모듈을 구성하는데 있습니다.<br>
 
